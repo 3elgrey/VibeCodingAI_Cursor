@@ -20,6 +20,8 @@ buildNumber.properties
 .classpath
 .settings/
 
+mcp.json
+
 # OS
 .DS_Store
 Thumbs.db
