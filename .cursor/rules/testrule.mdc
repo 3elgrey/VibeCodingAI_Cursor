@@ -1,0 +1,9 @@
+---
+description: This rule applies to testing of the project
+globs:
+alwaysApply: true
+---
+
+1. Always run the e2e test cases to check the functionality is working or not.
+2. If the application/server is running, after testing the application shut down the server.
+3. Start the application/server before testing starts.
