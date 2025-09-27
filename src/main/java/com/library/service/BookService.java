@@ -72,6 +72,10 @@ public class BookService {
         return bookRepository.countUnavailableBooks();
     }
     
+    public Long getTotalBooksCount() {
+        return bookRepository.count();
+    }
+    
     public boolean isBookAvailable(Long bookId) {
         Optional<Book> book = bookRepository.findById(bookId);
         return book.isPresent() && book.get().getAvailableCopies() > 0;
